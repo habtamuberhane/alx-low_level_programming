@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* something */
+/* Header for main */
 
 /**
  *Main - Entry point
@@ -17,7 +17,7 @@ int main(void)
 	{
 
 		printf("%d", i);
-	
+
 	}
 
 	printf("\n");
