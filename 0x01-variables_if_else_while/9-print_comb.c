@@ -3,7 +3,6 @@
 /* Header for something */
 
 /**
- *
  * main - ENtry
  *
  * Return: Always 0
@@ -18,7 +17,6 @@ int main(void)
 		printf("%d, ", i);
 	}
 
-	printf("\n");
 	return (0);
 
 }
