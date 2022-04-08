@@ -3,9 +3,9 @@
 /* something */
 
 /**
- * Main - Entry point
+ *Main - Entry point
  *
- * Return: Always 0
+ *Return: Always 0 (Success)
  */
 
 int main(void)
