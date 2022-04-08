@@ -1,9 +1,9 @@
 #include <stdio.h>
 /* Something */
 /*
- * main
+ * main - Entry point
  *
- * Return
+ * Return: Always 0(Succcess)
  */
 int main(void)
 {
@@ -14,9 +14,7 @@ int main(void)
 		putchar(ch);
 	}
 
-	putchar('\n');
-
-	for (ch = 'A'; ch<= 'Z'; ch++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
 		putchar(ch);
 	}
