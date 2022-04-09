@@ -14,10 +14,15 @@ int main(void)
 
 	for (i = 0; i < 10; ++i)
 	{
-		printf("%d", i);
+		if (i == 9)
+		{
+			printf("%d", i);
+		}
+		else if (i != 9) 
+		{
+			printf("%d", i);
+		}
 	}
-
-	printf(", ");
 
 	return (0);
 
