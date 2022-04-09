@@ -20,7 +20,7 @@ int main(void)
 		}
 		else if (i != 9)
 		{
-			putchar(", ", i);
+			putchar(", " + i);
 		}
 	}
 
