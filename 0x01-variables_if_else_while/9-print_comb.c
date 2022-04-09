@@ -16,11 +16,11 @@ int main(void)
 	{
 		if (i == 9)
 		{
-			putchar("0 " + i);
+			putchar(i);
 		}
 		else if (i != 9)
 		{
-			putchar("0, ", i);
+			putchar(", ", i);
 		}
 	}
 
