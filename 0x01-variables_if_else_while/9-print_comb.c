@@ -16,11 +16,11 @@ int main(void)
 	{
 		if (i == 9)
 		{
-			printf("%d ", i);
+			putchar("0 " + i);
 		}
 		else if (i != 9)
 		{
-			printf("%d, ", i);
+			putchar("0, ", i);
 		}
 	}
 
