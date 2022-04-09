@@ -16,13 +16,13 @@ int main(void)
 	{
 		if (i == 9)
 		{
-			putchar(i);
+			putchar('0' + i);
 		}
 		else if (i != 9)
 		{
 			putchar(',');
 			putchar(' ');
-			putchar(i);
+			putchar('0' + i);
 		}
 	}
 
