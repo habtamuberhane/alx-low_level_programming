@@ -22,8 +22,7 @@ int main(void)
 		else if (i != 9)
 		{
 			putchar('0' + i);
-			putchar(',');
-			putchar(' ');
+			putchar(',' + ' ');
 		}
 	}
 
