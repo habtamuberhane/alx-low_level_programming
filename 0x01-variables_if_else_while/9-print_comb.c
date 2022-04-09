@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (i == 9)
 		{
-			printf("%d", i);
+			printf("%d ", i);
 		}
 		else if (i != 9)
 		{
