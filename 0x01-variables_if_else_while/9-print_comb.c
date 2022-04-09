@@ -12,15 +12,15 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; ++i)
+	for (i = 0; i < 10; i++)
 	{
 		if (i == 9)
 		{
 			printf("%d", i);
 		}
-		else if (i != 9) 
+		else if (i != 9)
 		{
-			printf("%d", i);
+			printf("%d, ", i);
 		}
 	}
 
