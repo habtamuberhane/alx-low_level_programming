@@ -20,7 +20,8 @@ int main(void)
 		}
 		else if (i != 9)
 		{
-			putchar(", ");
+			putchar(',');
+			putchar(' ');
 			putchar(i);
 		}
 	}
