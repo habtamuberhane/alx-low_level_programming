@@ -10,21 +10,19 @@
 
 int main(void)
 {
-	int i;
+	int c = 0;
 
-	for (i = 0; i < 10; i++)
+	while (c < 10)
 	{
-		if (i == 9)
-		{
-			putchar('0' + i);
-			putchar("$");
-		}
-		else if (i != 9)
-		{
-			putchar('0' + i);
-			putchar(", ");
-		}
+		putchar(48 + c)
+			if (c != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		c++;
 	}
+	putchar('\n');
 
 	return (0);
 
