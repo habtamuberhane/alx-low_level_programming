@@ -3,6 +3,8 @@
 /**
  * _islower- the discription for this
  *
+ *@c: discription of c 
+ *
  * Return : 1 if its true.
  */
 
@@ -12,7 +14,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
