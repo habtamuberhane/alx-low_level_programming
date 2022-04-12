@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- * main - The main blah blah
+/**
+ * main- The main blah blah
  *
  * Return : 0
  */
