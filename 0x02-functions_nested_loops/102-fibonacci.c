@@ -6,22 +6,25 @@
  */
 int main(void)
 {
-unsigned long fib1 = 0, fib2 = 1, fibsum;
-float tot_sum;
+	int count;
+	unsigned long i = 0, j = 1, sum;
 
-while (1)
-{
-fibsum = fib1 + fib2;
-if (fibsum > 4000000)
-break;
+	for (count = 0; count < 50; count++)
+	{
+		sum = i + j;
+		printf("%lu", sum);
 
-if ((fibsum % 2) == 0)
-tot_sum += fibsum;
+		i = j;
+		j = sum;
 
-fib1 = fib2;
-fib2 = fibsum;
-}
-printf("%.0f\n", tot_sum);
-
-return (0);
+		if (count == 49)
+		{
+			printf("\n");
+		}
+		else 
+		{
+			printf(", ");
+		}
+	}
+	return (0);
 }
