@@ -6,11 +6,9 @@
  * Return : 1 if its true.
  */
 
-int main(void)
+int main(int c)
 {
-	char ch;
-
-	if (ch >= 'a' && ch <= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
