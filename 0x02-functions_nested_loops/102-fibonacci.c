@@ -11,7 +11,7 @@ float tot_sum;
 
 while (1)
 {
-fibsum = i + j;
+fibsum = fib1 + fib2;
 if (fibsum > 4000000)
 break;
 
