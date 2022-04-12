@@ -25,7 +25,7 @@ int main(void)
 		i = j;
 		j = sum;
 	}
-	printf("%, of\n", total_sum);
+	printf("%,of\n", total_sum);
 
 	return (0);
 }
