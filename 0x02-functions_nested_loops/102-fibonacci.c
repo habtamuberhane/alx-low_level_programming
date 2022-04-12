@@ -6,26 +6,22 @@
  */
 int main(void)
 {
-	unsigned long i = 0, j = 1, sum;
-	float total_sum;
+unsigned long i = 0, j = 1, sum;
+float total_sum;
 
-	while (1)
-	{
-		sum = i + j;
-		if (sum > 4000000)
-		{
-			break;
-		}
+while (1)
+{
+sum = i + j;
+if (sum > 4000000)
+break;
 
-		if ((sum % 2) == 0)
-		{
-			total_sum += sum;
-		}
+if ((sum % 2) == 0)
+total_sum += sum;
 
-		i = j;
-		j = sum;
-	}
-	printf("%.0f\n", total_sum);
+i = j;
+j = sum;
+}
+printf("%.0f\n", total_sum);
 
-	return (0);
+return (0);
 }
