@@ -4,7 +4,7 @@
  * print_last_digit - it print out the last digit
  * @n: number
  *
- * Return : value of asb
+ * Return: value of asb
  */
 
 int print_last_digit(int n)
