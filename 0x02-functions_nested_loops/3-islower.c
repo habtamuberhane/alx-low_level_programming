@@ -5,7 +5,7 @@
  *
  *@c: discription of c 
  *
- * Return : 1 if its true.
+ * Return: 1 if its true.
  */
 
 int _islower(int c)
