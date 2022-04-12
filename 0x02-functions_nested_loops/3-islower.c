@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - the discription for this
+ * _islower - check if its lower case or not
  *
  *@c: discription of c 
  *
@@ -18,5 +18,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-
 }
