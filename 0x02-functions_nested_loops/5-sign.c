@@ -22,6 +22,6 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar("Invalid');
+		_putchar("Invalid");
 	}
 }
