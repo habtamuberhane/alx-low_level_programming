@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower- the discription for this
+ * _islower - the discription for this
  *
  *@c: discription of c 
  *
@@ -18,4 +18,5 @@ int _islower(int c)
 	{
 		return (0);
 	}
+
 }
