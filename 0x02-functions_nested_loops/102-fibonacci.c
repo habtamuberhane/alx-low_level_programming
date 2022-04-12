@@ -17,7 +17,7 @@ int main(void)
 			break;
 		}
 
-		if((sum % 2) == 0)
+		if ((sum % 2) == 0)
 		{
 			total_sum += sum;
 		}
