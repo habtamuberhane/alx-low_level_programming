@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _isalpha - check the code
  *
- * Return : always 0
+ *@c: discriptuo fo this one
+ *
+ * Return: always 0
  */
 
 int _isalpha(int c)
