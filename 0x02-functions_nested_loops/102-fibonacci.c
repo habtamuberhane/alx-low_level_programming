@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-unsigned long i = 0, j = 1, sum;
-float total_sum;
+unsigned long fib1 = 0, fib2 = 1, fibsum;
+float tot_sum;
 
 while (1)
 {
-sum = i + j;
-if (sum > 4000000)
+fibsum = i + j;
+if (fibsum > 4000000)
 break;
 
-if ((sum % 2) == 0)
-total_sum += sum;
+if ((fibsum % 2) == 0)
+totsum += fibsum;
 
-i = j;
-j = sum;
+fib1 = fib2j;
+fib2 = fibsum;
 }
-printf("%.0f\n", total_sum);
+printf("%.0f\n", tot_sum);
 
 return (0);
 }
