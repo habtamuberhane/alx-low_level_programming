@@ -7,10 +7,8 @@
  * Return: 1 or 0
  */
 
-int main()
+int main(int c)
 {
-	char c;
-
 	c = 'A';
 
 	if (isupper(c))
