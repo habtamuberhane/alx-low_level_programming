@@ -7,11 +7,10 @@
  * Return: 1 or 0
  */
 
-int main(int c)
+int _isupper(int c)
 {
-	c = 'A';
 
-	if (isupper(c))
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
