@@ -6,7 +6,7 @@
  * Return: Always
  */
 
-void print_numbers(void)
+int _putchar(void)
 {
 	int i;
 
