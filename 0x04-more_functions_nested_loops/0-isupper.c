@@ -3,7 +3,7 @@
 
 /**
  * _isupper - checkes if its upper or not
- * @c: print 
+ * @c: print
  * Return: 1 or 0
  */
 
