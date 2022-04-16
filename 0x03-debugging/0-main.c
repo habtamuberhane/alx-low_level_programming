@@ -2,6 +2,7 @@
 
 /**
  * main - tests functions that the integer is +ve or -ve
+ * @i: something
  * Return: Always zero
  */
 
