@@ -12,7 +12,7 @@ void print_to_98(int n)
 	i = 0;
 
 	do {
-		printf("%d", i);
+		printf("%d\n", i);
 		i++;
 	}while(i == 98);
 
