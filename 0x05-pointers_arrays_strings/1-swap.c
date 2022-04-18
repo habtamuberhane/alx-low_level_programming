@@ -9,17 +9,17 @@
 
 void swap_int(int *a, int *b)
 {
-	a;
-	b;
+	*a;
+	*b;
 
-	a = 98;
-	b = 42;
+	*a = 98;
+	*b = 42;
 
-	printf("a=%d, b=%d\n", a, b);
+	printf("a=%d, b=%d\n", *a, *b);
 	
-	a = a - b;
-	b = a + b;
-	a = b - a;
+	*a = *a - *b;
+	*b = *a + *b;
+	*a = *b - *a;
 	
-	printf("a=%d, b=%d\n", a, b);
+	printf("a=%d, b=%d\n", *a, *b);
 }
