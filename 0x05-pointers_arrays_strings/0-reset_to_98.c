@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ *@n: pointer
  * Return: Always 0
  */
 
