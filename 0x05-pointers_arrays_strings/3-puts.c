@@ -12,7 +12,7 @@ int main(void)
 	char *str;
 
 	str = "I don not fear computers. I fear the lack of them - Issac Asimov";
-	_puts(str);
+	printf("%s", str);
 
 	return (1);
 }
