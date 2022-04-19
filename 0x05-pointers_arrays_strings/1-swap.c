@@ -15,12 +15,10 @@ void swap_int(int *a, int *b)
 	*a = 98;
 	*b = 42;
 
-	for (i = 0; i < 1; i++)
-	{
-		printf("%d, %d\n", *a, *b);
-		*a = *a - *b;
-		*b = *a + *b;
-		*a = *b - *a;
-		printf("%d, %d\n", *a, *b);
-	}
+	printf("%d, %d\n", *a, *b);
+	*a = *a - *b;
+	*b = *a + *b;
+	*a = *b - *a;
+	printf("%d, %d\n", *a, *b);
+
 }
