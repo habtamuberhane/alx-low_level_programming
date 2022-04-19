@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main1 - check the code
  *
  * Return: Always 0.
  */
 void swap_int(int*, int*);
 
-int main1()
+int main1(void)
 {
 
 	int a;
