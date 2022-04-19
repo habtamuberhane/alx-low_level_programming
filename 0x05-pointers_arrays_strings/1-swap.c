@@ -3,7 +3,7 @@
 
 /**
  * main1 - check the code
- *
+ * @int*: parameters pointer
  * Return: Always 0.
  */
 void swap_int(int*, int*);
