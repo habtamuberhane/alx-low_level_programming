@@ -4,8 +4,6 @@
 /**
  * main1 - check the code
  * @parameterint*: parameters pointer
- * @a: variable
- * @b: variable
  * Return: Always 0.
  */
 void swap_int(int*, int*);
