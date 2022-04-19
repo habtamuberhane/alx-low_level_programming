@@ -13,7 +13,7 @@ int _strlen(char *s)
 	s[] = "My first strlen!";
 	int len;
 
-	for (len = 0; s[len] != 0; ++len)
+	for (len = 0; s[len] != '\0'; ++len)
 	{
 		printf("%d\n", len);
 	}
