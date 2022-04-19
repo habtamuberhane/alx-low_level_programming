@@ -14,5 +14,5 @@ int main(void)
 	str = "I don not fear computers. I fear the lack of them - Issac Asimov";
 	_puts(str);
 
-	return (0);
+	return (1);
 }
