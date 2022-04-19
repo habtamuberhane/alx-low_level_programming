@@ -8,7 +8,7 @@
  */
 void swap_int(int*, int*);
 
-int main()
+int main1()
 {
 
 	int a;
