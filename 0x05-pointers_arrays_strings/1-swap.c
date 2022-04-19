@@ -3,7 +3,7 @@
 
 /**
  * main1 - check the code
- * @int*: parameters pointer
+ * @parameterint*: parameters pointer
  * @a: variable
  * @b: variable
  * Return: Always 0.
