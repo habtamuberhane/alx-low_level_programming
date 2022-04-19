@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -10,9 +11,11 @@ int _strlen(char *s)
 {
 	int len;
 
-	s = "My first strlen!";
-	len = _strlen(s);
-	printf("%d\n", len);
-
+	s[] = "My first strlen!";
+	
+	for (len = 0; s[len] != 0; ++i)
+	{
+		printf("%d\n", len);
+	}
 	return (0);
 }
