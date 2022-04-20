@@ -1,1 +1,1 @@
-0x06 More pointers0x06 More pointers0x06 More pointers0x06 More pointers0x06 More pointers0x06 More pointers
+0x06 pointers_arrays_strings
