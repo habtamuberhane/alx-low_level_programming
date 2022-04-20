@@ -13,7 +13,6 @@ char *_strncat(char *dest, char *src, int n);
 
 int main1(void)
 {
-	int i;
 	char s1[98] = "Hello ";
 	char s2[] = "world!\n";
 	char *ptr;
