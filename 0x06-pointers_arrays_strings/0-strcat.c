@@ -6,6 +6,7 @@
  *
  * Return: Always 0
  */
+
 char *_strcat(char *dest, char *src);
 
 int main1(void)
@@ -21,6 +22,6 @@ int main1(void)
 	printf("%s", s2);
 	printf("%s", s1);
 	printf("%s", ptr);
-	
+
 	return (0);
 }
