@@ -27,5 +27,5 @@ int main1(void)
 	printf("%s", s2);
 	printf("%s", ptr);
 	
-	return 0;
+	return (0);
 }
