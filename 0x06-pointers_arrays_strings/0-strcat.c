@@ -19,7 +19,7 @@ int main1(void)
 	ptr = _strcat(s1, s2);
 	printf("%s", s1);
 	printf("%s", s2);
-	printf("%s", s1;
+	printf("%s", s1);
 	
 	return (0);
 }
