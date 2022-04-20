@@ -3,7 +3,9 @@
 
 /**
  * main1 - check the code
+ *
  * @i: variable
+ *
  * Return: Always 0
  */
 
