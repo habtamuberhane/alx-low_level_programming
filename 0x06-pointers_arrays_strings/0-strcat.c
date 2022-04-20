@@ -12,7 +12,9 @@ char *_strcat(char *dest, char *src);
 int main1(void)
 {
 	char s1[98] = "Hello ";
+	
 	char s2[] = "world!\n";
+
 	char *ptr;
 
 	printf("%s\n", s1);
@@ -21,7 +23,6 @@ int main1(void)
 	printf("%s", s1);
 	printf("%s", s2);
 	printf("%s", s1);
-	printf("%s", ptr);
-
+	
 	return (0);
 }
