@@ -1,11 +1,13 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
- *  * main - check the code for Holberton School students.
- *   *
- *    * Return: Always 0.
- *     */
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+char *_strncpy(char *dest, char *src, int n);
+
 int main(void)
 {
 	char s1[98];
