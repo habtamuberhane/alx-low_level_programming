@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main1 - check the code for Holberton School students.
+ * main1 - check the code
  *
  * Return: Always 0.
  */
@@ -39,6 +39,7 @@ int main1(void)
 		}
 		printf("0x%02x", s1[i]);
 	}
+
 	printf("\n");
 	return (0);
 }
