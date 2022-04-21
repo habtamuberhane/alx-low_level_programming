@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main1 - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
 char *_strncpy(char *dest, char *src, int n);
 
-int main(void)
+int main1(void)
 {
 	char s1[98];
 	char *ptr;
