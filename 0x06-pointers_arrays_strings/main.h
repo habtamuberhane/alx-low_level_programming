@@ -19,6 +19,33 @@ char *_strcat(char *dest, char *src)
 	return (dest);
 }
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
+{
+	int srclen = 0;
+	int i = 0;
+	char *temp = dest; 
+	char *start = src;
+
+	while (*src)
+	{
+		srclen++;
+		src++;
+	}
+
+	while (*dest)
+		dest++;
+
+	if (n > srclen)
+		n = srclen;
+
+	src = start;
+
+	for(; i < n; i++)
+		*dest++ = *src++;
+
+	*dest = '\0';
+
+	return (temp);
+}
 
 #endif
