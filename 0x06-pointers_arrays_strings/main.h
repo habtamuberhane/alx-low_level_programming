@@ -101,4 +101,18 @@ void reverse_array(int *a, int n)
 	}
 
 }
+
+char *string_toupper(char *)
+{
+	char *start = s;
+
+	while (*s)
+	{
+		if (*s >= 'a' && *s <= 'z')
+			*s -= 32;
+		s++;
+	}
+	
+	return (start);
+}
 #endif
