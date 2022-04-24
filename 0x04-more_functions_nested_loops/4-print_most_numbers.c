@@ -1,15 +1,24 @@
 #include "main.h"
-
 /**
- * main1 - check the code
+ * print_most_numbers - check the code
  *
- * Return: Always 0.
+ * Return: always 0
  */
 
-void print_most_numbers(void);
 
-int main1(void)
+void print_most_numbers(void)
 {
-	print_most_numbers();
-	return (0);
+	int i;
+	
+	i = 0;
+
+	for (i = 0; i < 10; i++)
+	{
+		if (i == 2 || i == 4)
+		{
+			i++;
+		}
+		_putchar(i + '0');
+		_putchar('\n');
+	}
 }
