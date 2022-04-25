@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main1 - check the code
  *
  * Return: Always 0.
  */
+char *_strchr(char *s, char c);
 
-int main(void)
+int main1(void)
 {
 	char *s = "hello";
 	char *f;
