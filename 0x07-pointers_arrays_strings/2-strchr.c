@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main1 - check the code
  *
  * Return: Always 0.
  */
+
 char *_strchr(char *s, char c);
 
 int main1(void)
