@@ -14,4 +14,19 @@ char *_memset(char *s, char b, unsigned int n)
 	return (start);
 }
 
+char *_strchr(char *s, char c)
+{
+	while (*s)
+	{
+		if (c == *s)
+		{
+			return (S);
+		}
+		s++;
+	}
+	if(c == *s)
+		return (s);
+	return (NULL);
+}
+
 #endif
