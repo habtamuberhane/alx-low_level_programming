@@ -23,7 +23,7 @@ int factorial(int n)
 int main1(void)
 {
 	int r;
-	
+
 	r = factorial(1);
 	printf("%d\n", r);
 	r = factorial(5);
@@ -32,6 +32,6 @@ int main1(void)
 	printf("%d\n", r);
 	r = factorial(-1024);
 	printf("%d\n", r);
-	
+
 	return (0);
 }
