@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - code
+ * main1 - code
  *
  * Return - Always 0
  */
@@ -18,7 +18,7 @@ void _puts_recursion(char *s)
 		putchar('\n');
 }
 
-int main(void)
+int main1(void)
 {
 	_puts_recursion("Puts with Recursion");
 
