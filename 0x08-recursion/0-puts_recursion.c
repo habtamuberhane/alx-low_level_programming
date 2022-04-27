@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * main1 - code
+ * main - code
  *
  * Return - Always 0
  */
 
 void _puts_recursion(char *s);
 
-int main1(void)
+int main(void)
 {
 	_puts_recursion("Puts with Recursion");
 
