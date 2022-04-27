@@ -9,9 +9,9 @@
 
 int factorial(int n)
 {
-	if (n == 0)
-		return (0);
-	return ((num % 10) + factorial(num / 10));
+	if (n <= 1)
+		return (1);
+	return (n * factorial(n - 1));
 }
 
 /**
