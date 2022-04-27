@@ -3,7 +3,8 @@
 
 /**
  * main1 - code
- *
+ * _puts_recursion - a function that print string
+ * @s: input string
  * Return - Always 0
  */
 
