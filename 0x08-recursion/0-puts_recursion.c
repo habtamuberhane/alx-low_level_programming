@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main1 - code
@@ -10,7 +11,7 @@ void _puts_recursion(char *s);
 
 int main1(void)
 {
-	puts_recursion("Puts with Recursion");
+	_puts_recursion("Puts with Recursion");
 
 	return (0);
 }
