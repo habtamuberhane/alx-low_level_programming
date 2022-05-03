@@ -8,7 +8,7 @@
  * @argv: parameter
  * Return: Always 0
  */
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
 	int amount, coins = 0;
 	
@@ -53,5 +53,6 @@ int main(int argc, char *argv)
 		printf("Error\n");
 		return (1);
 	}
+
 	return (0);
 }
