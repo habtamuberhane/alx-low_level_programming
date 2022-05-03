@@ -47,11 +47,11 @@ int main(int argc, char **argv)
 			printf("%d\n", coins);
 			return (0);
 		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+	}
+	else
+	{
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
