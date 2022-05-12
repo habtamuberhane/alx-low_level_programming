@@ -8,6 +8,7 @@
  *
  * Return: not return 0, but id no elements -1 will return
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i = 0;
