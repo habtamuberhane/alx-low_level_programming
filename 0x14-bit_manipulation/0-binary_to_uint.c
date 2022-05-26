@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary_to_unit - Function tht convert the given unit
+ * binary_to_uint - Function tht convert the given unit
  * @b: pointer
  * Return: return the converted number
  */
