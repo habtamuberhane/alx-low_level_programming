@@ -3,7 +3,7 @@
 
 /**
  * _puts - Function that print string
- *
+ * @str: pointer
  * Return: Nothing
  */
 void _puts(char *str)
