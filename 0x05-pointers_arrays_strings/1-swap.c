@@ -3,7 +3,8 @@
 
 /**
  * swap_int - Function that swap the number
- * @n: pointer
+ * @a: pointer
+ * @b: pointer
  * Return: Nothing
  */
 
