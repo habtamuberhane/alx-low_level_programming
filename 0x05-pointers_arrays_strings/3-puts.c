@@ -2,17 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - The code
+ * _puts - Function that print string
  *
- * Return: Always 0
+ * Return: Nothing
  */
-
-int main(void)
+void _puts(char *str)
 {
-	char *str;
-
-	str = "I don not fear computers. I fear the lack of them - Issac Asimov";
-	printf("%s", str);
-
-	return (1);
+	puts(str);
 }
