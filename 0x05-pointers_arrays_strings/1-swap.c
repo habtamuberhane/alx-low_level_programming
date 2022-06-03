@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main1 - check the code
+ * swap_int - check the code
  * @parameterint*: parameters pointer
  * Return: Always 0.
  */
