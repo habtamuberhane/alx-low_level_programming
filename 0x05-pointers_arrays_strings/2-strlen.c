@@ -2,20 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _strlen - function that return the length of string
+ * @s: input string
+ * Return: Nothing
  */
 
 int _strlen(char *s)
 {
+	int len = 0;
 
-	s[20] = "My first strlen!";
-	int len;
+	while (s[len] != '\0')
+		len++;
 
-	for (len = 0; s[len] != '\0'; ++len)
-	{
-		printf("%d\n", len);
-	}
-	return (0);
+	return (len);
 }
