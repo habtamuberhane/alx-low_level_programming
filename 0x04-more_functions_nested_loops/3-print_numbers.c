@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_numbers - Print the number
@@ -6,15 +7,11 @@
  * Return: Always
  */
 
-int _putchar(void)
+void print_numbers(void)
 {
-	int i;
+	int i = '0';
 
-	i = 0;
-
-	for (i = 0; i < 10; i++)
-		putchar(i + '0');
-
-	
-	putchar ('\n');
+	for (; i <= '9'; i++)
+		putchar(i);
+	putchar('\n');
 }
